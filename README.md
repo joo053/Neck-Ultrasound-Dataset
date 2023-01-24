@@ -5,7 +5,7 @@
 
 Ultrasound images of the neck are often noisy and artifacts, requiring extensive experience to accurately identify the human organ. Therefore, image detection models trained on a large dataset for <b>Normal Neck Ultrasound (NNUS)</b> images have the potential to help radiologists and sonographers in real time. It can also be used for educational purposes for students learning radiology and can be usefully used to distinguish it from normal people by adding a dataset containing abnormal neck lesions.
 
-The anatomical appearance of the normal person's neck and ultrasound images of the organs and its label dataset can shorten the time for many researchers to photograph and collect the normal person's neck for their research after publication. In addition, many researchers can develop new models using their datasets and extra-validate their studies using these datasets.
+The anatomical appearance of the normal person's neck and ultrasound images of the organs and its label dataset can shorten the time for many researchers to scan and collect the normal person's neck for their research. In addition, many researchers can develop new models using their datasets and extra-validate their studies using these datasets.
 
 **Abstract**
 - Our NNUS dataset consists of 790 normal human neck ultrasound images and their labels.
