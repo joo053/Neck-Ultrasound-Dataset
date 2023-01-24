@@ -38,7 +38,7 @@ This dataset is the result of scanning and extracting images using LOGIQ P6 (GE 
 Two radiologic technologists (11 years and 6 years of experience) used Label-Img (Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg) to label the trachea, thyroid, common carotid artery, internal jugular vein, esophagus, longus colli muscle, strap muscle, and sternocleidomastoid muscle with bounding boxes.
 The location information of these boxes was converted into coordinates and saved as a text file.
 
-<img src="label_instances.jpg" width="768px" />
+<img src="label_instances.jpg" width="300px" />
 
 ## Usage
 
