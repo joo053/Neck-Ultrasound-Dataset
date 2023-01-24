@@ -10,7 +10,7 @@ The anatomical appearance of the normal person's neck and ultrasound images of t
 **Abstract**
 - Our NNUS dataset consists of 790 normal human neck ultrasound images and their labels.
 - We trained 100 epochs using YOLOv5s pretrained model and obtained mAP 0.8044, precision 0.7952, recall 0.8082.
-- For the validation of the model we have learned, we input the newly captured normal person's neck ultrasound, and we were able to obtain the detected video as shown below.
+- For the validation of the model we have learned, we input the newly scaned normal person's neck ultrasound video, and we were able to obtain the video which was detected neck organs as shown below.
 
 <b>[Click on the image below to play the video]</b>
 
