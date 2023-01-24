@@ -20,6 +20,7 @@ The anatomical appearance of the normal person's neck and ultrasound images of t
 - [Usage](#usage)
 - [Results of Training](#results-of-training)
 - [Acknowledgements](#acknowledgements)
+- [Citation](#citation)
 
 ## Structure of Dataset
         NNUS/
@@ -71,3 +72,6 @@ We identified training performance using the YOLOv5s pre-learning model (Jocher,
 This code borrows from
 - Jocher, G. (2020). YOLOv5 by Ultralytics (Version 7.0) [Computer software]. https://doi.org/10.5281/zenodo.3908559
 - Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg
+
+## Citation
+Joo Young Oh, EuiHwan Jeong, Moo Jin Jeong, Lee Joo Young, Hoon-Hee Park (2023). NNUS: Large Dataset for Normal Neck Organ Detection in Ultrasound
