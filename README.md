@@ -56,11 +56,11 @@ We identified training performance using the YOLOv5s pre-learning model (Jocher,
 6. After detect.py is completed, open /content/yolov5/runs/val/exp/test.mp4 to visually validate whether human organs are well detected.
 
 ## Results of Training
-best epoch: 90
-mAP_0.5: 0.8044
-mAP_0.5:0.95: 0.4717
-precision: 0.7952
-recall: 0.8082
+- best epoch: 90
+- mAP_0.5: 0.8044
+- mAP_0.5:0.95: 0.4717
+- precision: 0.7952
+- recall: 0.8082
 <img src="confusion_matix.png" width="768px" />
 
 ## Acknowledgements
