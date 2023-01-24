@@ -1,5 +1,5 @@
 # Neck-Ultrasound-Dataset
-**NNUS: Large Dataset for Normal Neck Organ Detection in Ultrasound**
+**NNUS: Dataset for Normal Neck Organ Detection in Ultrasound**
 
 **Summary statement**
 
@@ -80,4 +80,4 @@ CC BY-NC-SA 4.0
 When publishing a research paper using a dataset, the following citations must be included.
 
 ## Citation
-Joo Young Oh, Euihwan Jeong, Moo Jin Jeong, Lee Joo Young, Hoon-Hee Park (2023). NNUS: Large Dataset for Normal Neck Organ Detection in Ultrasound. https://github.com/joo053/Neck-Ultrasound-Dataset
+Joo Young Oh, Euihwan Jeong, Moo Jin Jeong, Joo Young Lee, Hoon-Hee Park (2023). NNUS: Large Dataset for Normal Neck Organ Detection in Ultrasound. https://github.com/joo053/Neck-Ultrasound-Dataset
