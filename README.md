@@ -12,6 +12,9 @@ The anatomical appearance of the normal person's neck and ultrasound images of t
 - We trained 100 epochs using YOLOv5s pretrained model and obtained mAP 0.8044, precision 0.7952, recall 0.8082.
 - For the validation of the model we have learned, we input the newly scanned normal person's neck ultrasound video, and we were able to obtain the video which detected organs in the neck area as shown below.
 
+<b>[Click on the image below to play the video]</b>
+
+[![Video Label](http://img.youtube.com/vi/xby9u6db2Gw/0.jpg)](https://youtu.be/xby9u6db2Gw?t=0s)
 https://user-images.githubusercontent.com/26860786/214288483-231e7dae-1970-425c-83f1-269f0eaf4e16.mp4
 
 
