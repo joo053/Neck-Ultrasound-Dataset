@@ -74,4 +74,4 @@ This code borrows from
 - Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg
 
 ## Citation
-Joo Young Oh, EuiHwan Jeong, Moo Jin Jeong, Lee Joo Young, Hoon-Hee Park (2023). NNUS: Large Dataset for Normal Neck Organ Detection in Ultrasound
+Joo Young Oh, Euihwan Jeong, Moo Jin Jeong, Lee Joo Young, Hoon-Hee Park (2023). NNUS: Large Dataset for Normal Neck Organ Detection in Ultrasound
