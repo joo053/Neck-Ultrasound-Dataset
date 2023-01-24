@@ -8,7 +8,7 @@ Ultrasound images of the neck are often noisy and artifacts, requiring extensive
 The anatomical appearance of the normal person's neck and ultrasound images of the organs and its label dataset can shorten the time for many researchers to photograph and collect the normal person's neck for their research after publication. In addition, many researchers can develop new models using their datasets and extra-validate their studies using these datasets.
 
 **Abstract**
-- Our NNUS dataset consists of 790 normal human sonography images and their labels.
+- Our NNUS dataset consists of 790 normal human neck ultrasound images and their labels.
 - We trained 100 epochs using YOLOv5s pretrained model and obtained mAP 0.8044, precision 0.7952, recall 0.8082.
 - For the validation of the model we have learned, we input the newly captured normal person's neck ultrasound, and we were able to obtain the detected video as shown below.
 
