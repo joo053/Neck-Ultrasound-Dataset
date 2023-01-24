@@ -11,6 +11,7 @@ The anatomical appearance of the normal person's neck and ultrasound images of t
 - For the validation of the model we have learned, we input the newly captured normal person's neck ultrasound, and we were able to obtain the detected video as shown below.
 
 <b>[Click on the image below to play the video]</b>
+
 [![Video Label](http://img.youtube.com/vi/xby9u6db2Gw/0.jpg)](https://youtu.be/xby9u6db2Gw?t=0s)
 
 ## Table of Contents
