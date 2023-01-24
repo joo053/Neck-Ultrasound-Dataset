@@ -53,10 +53,14 @@ We identified training performance using the YOLOv5s pre-learning model (Jocher,
 6. After detect.py is completed, open /content/yolov5/runs/val/exp/test.mp4 to visually validate whether human organs are well detected.
 
 ## Results of Training
+best epoch: 90
+mAP_0.5: 0.8044
+mAP_0.5:0.95: 0.4717
+precision: 0.7952
+recall: 0.8082
 <img src="confusion_matix.png" width="768px" />
 
 ## Acknowledgements
 This code borrows from
 - Jocher, G. (2020). YOLOv5 by Ultralytics (Version 7.0) [Computer software]. https://doi.org/10.5281/zenodo.3908559
 - Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg
-- 
