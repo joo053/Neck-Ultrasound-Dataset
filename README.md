@@ -1,5 +1,5 @@
 # Neck-Ultrasound-Dataset
-NNUS: Large Dataset for Normal Neck Organ Detection in Ultrasound 
+**NNUS: Large Dataset for Normal Neck Organ Detection in Ultrasound**
 
 **Summary statement**
 Ultrasound images of the neck are often noisy and artifacts, requiring extensive experience to accurately identify the human organ. Therefore, image detection models trained on a large dataset for Normal Neck Ultrasound (NNUS) images have the potential to help doctors and radiologic technologists in real time. It can also be used for educational purposes for students learning radiology and can be usefully used to distinguish it from normal people by adding an abnormal dataset.
