@@ -16,12 +16,6 @@ The anatomical appearance of the normal person's neck and ultrasound images of t
 
 [![Video Label](http://img.youtube.com/vi/xby9u6db2Gw/0.jpg)](https://youtu.be/xby9u6db2Gw?t=0s)
 
-
-
-https://user-images.githubusercontent.com/26860786/214289321-bdba99fd-1b7f-4e2f-96bc-7bb087257142.mp4
-
-
-
 ## Table of Contents
 - [Structure of Dataset](#structure-of-dataset)
 - [Usage](#usage)
