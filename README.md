@@ -52,7 +52,7 @@ AI using datasets can be trained using object detection models such as YOLO.
 
 We identified training performance using the YOLOv5s pre-learning model (Jocher, G. (2020). YOLOv5 by Ultralytics (Version 7.0) [Computer software]. https://doi.org/10.5281/zenodo.3908559).
 
-1. Open the nnus_train_and_valid.ipynb file on Github (https://github.com/joo053/Neck-Ultrasound-Dataset) and click the "Open in Colab" button.
+1. Open the [nnus_train_and_valid.ipynb](https://github.com/joo053/Neck-Ultrasound-Dataset/blob/main/nnus_train_and_valid.ipynb) file on Github and click the "Open in Colab" button.
 2. Execute the code line by line from the top. (Press the left play button on each code, or click on the code and press Shift+Enter.)
 3. When you run python train.py, you can change the parameters you want and proceed with training. (For example, you can change the weight from yolo5s.pt to yolo5m.pt.)
 4. When train.py is all done, you can get a model file named /content/yolov5/runs/detect/exp/weight/best.pt.
