@@ -3,6 +3,7 @@
 
 **Summary statement**
 Ultrasound images of the neck are often noisy and artifacts, requiring extensive experience to accurately identify the human organ. Therefore, image detection models trained on a large dataset for Normal Neck Ultrasound (NNUS) images have the potential to help doctors and radiologic technologists in real time. It can also be used for educational purposes for students learning radiology and can be usefully used to distinguish it from normal people by adding an abnormal dataset.
+
 The anatomical appearance of the normal person's neck and ultrasound images of the organs and its label dataset can shorten the time for many researchers to photograph and collect the normal person's neck for their research after publication. In addition, many researchers can develop new models using their datasets and extra-validate their studies using these datasets.
 
 **Abstract**
@@ -34,18 +35,21 @@ The anatomical appearance of the normal person's neck and ultrasound images of t
 ### Images
 All images are composed of 494×447 pixel jpg format files.
 All shots were taken from 25 volunteers (average age 24.5 ± 3.5 years), presumed to be disease-free, ultrasound images of the neck.
+
 More than 3 Shingu College (Seongnam, Republic of Korea) sonography students participated in the scan.
 This dataset is the result of scanning and extracting images using LOGIQ P6 (GE healthcare, Connecticut, U.S.). Three types of scanning methods (longitudinal, transverse, and oblique scan) were randomly applied, and scanned about 30 to 40 images per person.
 
 
 ### Labels
 Two radiologic technologists (11 years and 6 years of experience) used Label-Img (Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg) to label the trachea, thyroid, common carotid artery, internal jugular vein, esophagus, longus colli muscle, strap muscle, and sternocleidomastoid muscle with bounding boxes.
+
 The location information of these boxes was converted into coordinates and saved as a text file.
 
 <img src="label_instances.jpg" width="300px" />
 
 ## Usage
 AI using datasets can be trained using object detection models such as YOLO.
+
 We identified training performance using the YOLOv5s pre-learning model (Jocher, G. (2020). YOLOv5 by Ultralytics (Version 7.0) [Computer software]. https://doi.org/10.5281/zenodo.3908559).
 
 1. Open the nnus_train_and_valid.ipynb file on Github (https://github.com/joo053/Neck-Ultrasound-Dataset) and click the "Open in Colab" button.
