@@ -6,7 +6,7 @@ Ultrasound images of the neck are often noisy and artifacts, requiring extensive
 The anatomical appearance of the normal person's neck and ultrasound images of the organs and its label dataset can shorten the time for many researchers to photograph and collect the normal person's neck for their research after publication. In addition, many researchers can develop new models using their datasets and extra-validate their studies using these datasets.
 
 **Abstract**
--	Our NNUS dataset consists of 790 normal human sonography images and their labels.
+- Our NNUS dataset consists of 790 normal human sonography images and their labels.
 - We trained 100 epochs using YOLOv5s pretrained model and obtained mAP 0.8044, precision 0.7952, recall 0.8082.
 - For the validation of the model we have learned, we input the newly captured normal person's neck ultrasound, and we were able to obtain the detected video as shown below.
 
@@ -38,21 +38,23 @@ This dataset is the result of scanning and extracting images using LOGIQ P6 (GE 
 Two radiologic technologists (11 years and 6 years of experience) used Label-Img (Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg) to label the trachea, thyroid, common carotid artery, internal jugular vein, esophagus, longus colli muscle, strap muscle, and sternocleidomastoid muscle with bounding boxes.
 The location information of these boxes was converted into coordinates and saved as a text file.
 
-<img src="table1.png" width="768px" />
+<img src="label_instances.jpg" width="768px" />
 
 ## Usage
-<img src="figure1.png" />
 
-1. 
-For more information about [nnU-Net](https://github.com/MIC-DKFZ/nnUNet), please read the following paper:
+AI using datasets can be trained using object detection models such as YOLO.
+We identified training performance using the YOLOv5s pre-learning model (Jocher, G. (2020). YOLOv5 by Ultralytics (Version 7.0) [Computer software]. https://doi.org/10.5281/zenodo.3908559).
 
-
-    Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2020). nnU-Net: a self-configuring method 
-    for deep learning-based biomedical image segmentation. Nature Methods, 1-9.
-    
-
-6. Download the model `best.model` file through the following [download](https://drive.google.com/file/d/1w7N0z901rAzuC6I7AarVbNE7c5DZyQjk/view), and move it to `BM_detection_AI/results/nnUNet/3d_fullres/meta/nnUNetTrainer__nnUNetPlans/all`.
+1. Open the nnus_train_and_valid.ipynb file on Github (https://github.com/joo053/Neck-Ultrasound-Dataset) and click the "Open in Colab" button.
+2. Execute the code line by line from the top. (Press the left play button on each code, or click on the code and press Shift+Enter.)
+3. When you run python train.py, you can change the parameters you want and proceed with training. (For example, you can change the weight from yolo5s.pt to yolo5m.pt.)
+4. When train.py is all done, you can get a model file named /content/yolov5/runs/detect/exp/weight/best.pt.
+5. Run detect.py. Test.mp4, which was never used for training, is detected through the best.pt model.
+6. After detect.py is completed, open /content/yolov5/runs/val/exp/test.mp4 to visually validate whether human organs are well detected.
+<img src="confusion_matix.png" width="768px" />
 
 ## Acknowledgements
 This code borrows from
-- [MIC-DKFZ/nnUNet](https://github.com/MIC-DKFZ/nnUNet)
+- Jocher, G. (2020). YOLOv5 by Ultralytics (Version 7.0) [Computer software]. https://doi.org/10.5281/zenodo.3908559
+- Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg
+- 
