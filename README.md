@@ -74,5 +74,9 @@ This code borrows from
 - Jocher, G. (2020). YOLOv5 by Ultralytics (Version 7.0) [Computer software]. https://doi.org/10.5281/zenodo.3908559
 - Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg
 
+## License
+CC BY-NC-SA 4.0
+When publishing a research paper using a dataset, the following citations must be included.
+
 ## Citation
 Joo Young Oh, Euihwan Jeong, Moo Jin Jeong, Lee Joo Young, Hoon-Hee Park (2023). NNUS: Large Dataset for Normal Neck Organ Detection in Ultrasound. https://github.com/joo053/Neck-Ultrasound-Dataset
