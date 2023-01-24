@@ -43,7 +43,7 @@ This dataset is the result of scanning and extracting images using LOGIQ P6 (GE 
 
 
 ### Labels
-Two radiologic technologists (11 years and 6 years of experience) used Label-Img (Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg) to label the trachea, thyroid, common carotid artery, internal jugular vein, esophagus, longus colli muscle, strap muscle, and sternocleidomastoid muscle with bounding boxes.
+Two radiologic technologists (11 years and 6 years of experience) used Label-Img (https://github.com/tzutalin/labelImg) to label the trachea, thyroid, common carotid artery, internal jugular vein, esophagus, longus colli muscle, strap muscle, and sternocleidomastoid muscle with bounding boxes.
 
 The location information of these boxes was converted into coordinates and saved as a text file. The total number of labels is as follows.
 
@@ -52,7 +52,7 @@ The location information of these boxes was converted into coordinates and saved
 ## Usage
 AI using datasets can be trained using object detection models such as YOLO.
 
-We identified training performance using the YOLOv5s pre-learning model (Jocher, G. (2020). YOLOv5 by Ultralytics (Version 7.0) [Computer software]. https://doi.org/10.5281/zenodo.3908559).
+We identified training performance using the YOLOv5s pre-learning model ([YOLOv5 by Ultralytics (Version 7.0)](https://doi.org/10.5281/zenodo.3908559)).
 
 1. Open the [nnus_train_and_valid.ipynb](https://github.com/joo053/Neck-Ultrasound-Dataset/blob/main/nnus_train_and_valid.ipynb) file on Github and click the "Open in Colab" button.
 2. Execute the code line by line from the top. (Press the left play button on each code, or click on the code and press Shift+Enter.)
