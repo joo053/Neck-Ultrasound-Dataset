@@ -41,7 +41,6 @@ The location information of these boxes was converted into coordinates and saved
 <img src="label_instances.jpg" width="300px" />
 
 ## Usage
-
 AI using datasets can be trained using object detection models such as YOLO.
 We identified training performance using the YOLOv5s pre-learning model (Jocher, G. (2020). YOLOv5 by Ultralytics (Version 7.0) [Computer software]. https://doi.org/10.5281/zenodo.3908559).
 
@@ -51,6 +50,8 @@ We identified training performance using the YOLOv5s pre-learning model (Jocher,
 4. When train.py is all done, you can get a model file named /content/yolov5/runs/detect/exp/weight/best.pt.
 5. Run detect.py. Test.mp4, which was never used for training, is detected through the best.pt model.
 6. After detect.py is completed, open /content/yolov5/runs/val/exp/test.mp4 to visually validate whether human organs are well detected.
+
+## Results of Training
 <img src="confusion_matix.png" width="768px" />
 
 ## Acknowledgements
