@@ -38,7 +38,7 @@ The anatomical appearance of the normal person's neck and ultrasound images of t
 All images are composed of 494×447 pixel jpg format files.
 All shots were taken from 25 volunteers (average age 24.5 ± 3.5 years), presumed to be disease-free, ultrasound images of the neck.
 
-One (1) Radiologic Technologist and Three (3) Shingu College (Seongnam, Republic of Korea) sonography students participated in the scan.
+One radiologic technologist (1 year of experience) and three sonography students in Shingu College (Seongnam, Republic of Korea) participated in the scan.
 This dataset is the result of scanning and extracting images using LOGIQ P6 (GE healthcare, Connecticut, U.S.). Three types of scanning methods (longitudinal, transverse, and oblique scan) were randomly applied, and scanned about 30 to 40 images per person.
 
 
